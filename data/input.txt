@@ -1,0 +1,61 @@
+Once upon a time, in a distant kingdom, there lived a young apprentice who dreamed of understanding the secrets of language.
+Every day, he studied ancient texts, seeking to unlock the mysteries of words and sentences.
+
+The old sage of the village told him one day: "Language is like a river. Each word flows into the next,
+carried by the current of thought. To understand the flow, you must first understand each drop."
+
+The apprentice spent years observing patterns. He noticed that certain words liked to follow each other:
+"the" often called for a noun, "very" announced an adjective, and sentences had their own rhythm.
+
+One morning, he had a revelation. "What if," he thought, "I could teach a machine these patterns?
+Not the rigid rules of grammar, but the fluid tendencies of natural language?"
+
+He began his work. First, he needed to transform words into numbers, for machines only understand
+digits. Each character became a number, each number a position in an abstract space.
+
+Then came attention - the mechanism that allows looking backward and forward, weaving connections
+between distant words. "The cat that slept on the mat jumped" - how to know that "jumped"
+relates to the cat and not the mat? Attention solves this mystery.
+
+Layer after layer, the model learned. The first layers captured simple patterns:
+letters forming syllables, syllables forming words. The deeper layers
+learned the abstract: meaning, intention, context.
+
+The sage watched with a smile. "You have understood," he said. "Language is not a list of rules,
+it is a dance of probabilities. Each word is a prediction, each sentence a symphony of choices."
+
+The apprentice nodded. His small model was not perfect - it invented words, confused
+contexts, and sometimes produced gibberish. But it had captured something essential:
+the ability to continue, to predict, to generate.
+
+"Now," said the sage, "you understand why large models need so much data
+and so much computation. Each pattern, each nuance, each turn of phrase must be learned.
+The larger the model, the more subtleties it can capture."
+
+The apprentice smiled. He had built his first language model - small, imperfect, but functional.
+And most importantly, he had understood. The magic was not in the complexity of mathematics, but in
+the elegant simplicity of the idea: predict the next word, again and again, until language emerges.
+
+End of the first lesson.
+
+---
+
+Key concepts to remember:
+
+1. TOKENIZATION: Converting text to numbers
+2. EMBEDDING: Representing tokens as vectors
+3. ATTENTION: Allowing tokens to "look at" each other
+4. TRANSFORMER: The architecture that combines all of this
+5. NEXT TOKEN PREDICTION: The fundamental training task
+
+The path to GPT-4 starts here, with these same principles, simply at a larger scale.
+
+---
+
+To go further, the apprentice could:
+- Increase the model size
+- Use more data
+- Implement advanced techniques like RoPE or FlashAttention
+- Explore fine-tuning and alignment
+
+But for now, this small model is enough to understand the magic of LLMs.

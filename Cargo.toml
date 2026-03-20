@@ -1,0 +1,22 @@
+[package]
+name = "mini-llm"
+version = "0.1.0"
+edition = "2021"
+description = "Un mini modèle de langage éducatif en Rust"
+
+[dependencies]
+# Candle - Framework ML de Hugging Face
+candle-core = "0.8"
+candle-nn = "0.8"
+
+# Utilitaires
+anyhow = "1.0"          # Gestion d'erreurs simplifiée
+rand = "0.8"            # Génération aléatoire
+indicatif = "0.17"      # Barres de progression
+
+[features]
+# Active le support CUDA (décommenter pour GPU NVIDIA)
+# cuda = ["candle-core/cuda"]
+
+# Active le support Metal (décommenter pour GPU Apple)
+# metal = ["candle-core/metal"]
